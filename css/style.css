@@ -1,0 +1,140 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: rgb(218,218,218);
+  background: linear-gradient(180deg, rgba(169,216,236) 50%, rgba(242,242,242) 50%);
+  background-repeat: no-repeat;
+
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+ul li:first-child img {
+  margin-top: 5px;
+  position: relative;
+  right: 200px;
+  margin-top: 60px; 
+}
+ul li:last-child img {
+  position: relative;
+  right: -200px;
+  margin-top: 50px; 
+}
+
+.menu li:nth-child(4) a {
+  font-size: 24px;
+  margin-top: 45px; 
+  margin-right: 50px;
+  
+}
+
+.menu li:nth-child(3) a {
+  
+  margin-right: 50px;
+  margin-top: 50px; 
+}
+.menu li:nth-child(2) a {
+  
+  margin-right: 50px;
+  margin-top: 50px; 
+}
+
+.menu li:nth-child(5) a {
+  
+  margin-right: 50px;
+  margin-top: 50px; 
+}
+
+.menu li:nth-child(6) a {
+  
+ 
+  margin-top: 50px; 
+}
+
+.background1{
+   
+  background: rgb(218,218,218);
+  background: linear-gradient(180deg, rgba(253,149,150) 50%, rgba(255,255,255) 50%);
+  background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    width: 1700px;
+    height: 909px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+  }
+
+  .fotka img{
+    width: 450px;
+    margin-left: 640px;
+    margin-top: 76px;
+  }
+  .text{
+    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    margin-left: 830px;
+    font-size: 40px;
+  }
+  .text2{
+    
+    font-family: 'Times New Roman', serif;
+    margin-left: 750px;
+    font-size: 80px;
+    margin-top: -30px;
+    color: #0F313B;
+  }
+  .text3{
+    font-family: 'Times New Roman', serif;
+    margin-left: 700px;
+    margin-top: 50px;
+   
+  }
+ #test1{
+    margin-left: -20px;
+  }
+  #test2{
+    margin-left: -100px;
+  }
+  #test3{
+    margin-left: 80px;
+  }
+.text4{
+  margin-top: 50px;
+  margin-left: 650px;
+}
